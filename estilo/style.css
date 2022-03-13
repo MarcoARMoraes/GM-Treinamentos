@@ -66,6 +66,7 @@ a {
 img {
     max-width: 100%;
     display: block;
+    border-radius: 10px;
 }
 
 .header_logo {
@@ -93,6 +94,11 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
+}
+
+div {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.356);
 }
 
 footer {
