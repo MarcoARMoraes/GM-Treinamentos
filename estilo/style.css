@@ -110,11 +110,17 @@ div {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.356);
 }
 
+.explica {
+    text-align: justify;
+    align-self: auto;
+}
+
 footer {
     background-image: linear-gradient(to right, #E64D07, #F5A50B);
     color: white;
     padding: 10px;
     text-align: right;
+    align-self: auto;
 }
 
 .flex {
