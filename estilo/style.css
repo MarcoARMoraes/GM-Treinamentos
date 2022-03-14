@@ -2,11 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap');
+
 @font-face {
     font-family: 'Android';
     src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'League Spartan', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap');
+}
+
 
 :root {
     --cor0: #F5A50B;
@@ -16,12 +24,13 @@
     --cor4: #F2052B;
 
     --fonte-padrão: 'Fredoka', cursive;
+    --fonte-seria: 'League Spartan', cursive;
 }
 
 h1 {
     text-align: center;
     margin: 20px;
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-seria);
     font-size: 75px;
     color: rgba(0, 0, 0, 0.623);
 }
